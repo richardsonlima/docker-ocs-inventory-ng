@@ -25,14 +25,6 @@ Install Official OCS Inventory Docker Image Released by Richardson Lima
 =======================
 Step - 1 Pulling our image from the Docker repository
 ```bash
-$ docker tag local-image:tagname richardsonlima/ocs-inventory-ng:tagname
-```
-or 
-```bash
-$ docker push richardsonlima/ocs-inventory-ng:tagname
-```
-or 
-```bash
 docker pull richardsonlima/ocs-inventory-ng
 ```
 
