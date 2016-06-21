@@ -1,3 +1,5 @@
+* Build and Test environment: CentOS Linux release 7.2.1511 (Core) 
+
 Docker install
 =======================
 
@@ -21,13 +23,22 @@ systemctl status docker.service
 
 Install Official OCS Inventory Docker Image Released by Richardson Lima
 =======================
-Pulling our image from the Docker repository
+Step - 1 Pulling our image from the Docker repository
 ```bash
 $ docker tag local-image:tagname richardsonlima/ocs-inventory-ng:tagname
 ```
-
+or 
 ```bash
 $ docker push richardsonlima/ocs-inventory-ng:tagname
+```
+or 
+```bash
+docker pull richardsonlima/ocs-inventory-ng
+```
+
+Step - 2 Run container
+``` bash
+docker run -d -p 80:80 -p 3306:3306 richardsonlima/ocs-inventory-ng
 ```
 
 Make sure to change tagname with your desired image repository TAG.
