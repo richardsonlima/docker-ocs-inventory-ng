@@ -19,9 +19,21 @@ systemctl start docker.service
 systemctl status docker.service
 ```
 
+Install Official OCS Inventory Docker Image Released by Richardson Lima
+=======================
+Pulling our image from the Docker repository
+```bash
+$ docker tag local-image:tagname richardsonlima/ocs-inventory-ng:tagname
+```
+
+```bash
+$ docker push richardsonlima/ocs-inventory-ng:tagname
+```
+
+Make sure to change tagname with your desired image repository TAG.
 
 
-docker-ocs-inventory-ng
+Install from git repo - docker-ocs-inventory-ng
 =======================
 
 Out-of-the-box OCS-Inventory-NG Server image based on CentOS 6.6
