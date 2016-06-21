@@ -1,3 +1,26 @@
+Docker install
+=======================
+
+Step 1: Installation of Docker
+-----
+
+``` bash
+yum -y update && yum -y install docker docker-registry
+```
+
+Step 2: Start Docker and Make Sure Docker Starts on Boot
+-----
+
+``` bash
+systemctl enable docker.service
+
+systemctl start docker.service
+
+systemctl status docker.service
+```
+
+
+
 docker-ocs-inventory-ng
 =======================
 
