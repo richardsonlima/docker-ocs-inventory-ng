@@ -33,8 +33,6 @@ Step - 2 Run container
 docker run -d -p 80:80 -p 3306:3306 richardsonlima/ocs-inventory-ng
 ```
 
-Make sure to change tagname with your desired image repository TAG.
-
 https://hub.docker.com/r/richardsonlima/ocs-inventory-ng/
 
 Install from git repo - docker-ocs-inventory-ng
