@@ -32,6 +32,7 @@ $ docker push richardsonlima/ocs-inventory-ng:tagname
 
 Make sure to change tagname with your desired image repository TAG.
 
+https://hub.docker.com/r/richardsonlima/ocs-inventory-ng/
 
 Install from git repo - docker-ocs-inventory-ng
 =======================
