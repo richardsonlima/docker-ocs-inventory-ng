@@ -70,6 +70,8 @@ Test your deployment:
 ```bash
 	curl http://localhost/ocsreports/
 ```
+user: admin
+password: admin
 
 Technical Detail
 ----------------
