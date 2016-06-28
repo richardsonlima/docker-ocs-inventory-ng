@@ -32,6 +32,12 @@ Step - 2 Run container
 ``` bash
 docker run -d -p 80:80 -p 3306:3306 richardsonlima/ocs-inventory-ng
 ```
+Test your deployment:
+```bash
+	curl http://localhost/ocsreports/
+```
+user: admin
+password: admin
 
 https://hub.docker.com/r/richardsonlima/ocs-inventory-ng/
 
