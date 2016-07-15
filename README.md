@@ -1,5 +1,22 @@
 * Build and Test environment: CentOS Linux release 7.2.1511 (Core) 
 
+IMPORTANTE:
+
+If you need to use OCS Inventory 2.2.1 version put this 
+
+``` bash
+docker pull richardsonlima/ocs-inventory-ng-2.2.1
+docker run -d -p 80:80 -p 3306:3306 richardsonlima/ocs-inventory-ng-2.2.1
+```
+Test your deployment:
+```bash
+	curl http://localhost/ocsreports/
+```
+user: admin
+password: admin
+
+Public Repository: https://hub.docker.com/r/richardsonlima/ocs-inventory-ng-2.2.1/
+
 Docker install
 =======================
 
@@ -39,7 +56,7 @@ Test your deployment:
 user: admin
 password: admin
 
-https://hub.docker.com/r/richardsonlima/ocs-inventory-ng/
+Public Repository: https://hub.docker.com/r/richardsonlima/ocs-inventory-ng/
 
 Install from git repo - docker-ocs-inventory-ng
 =======================
